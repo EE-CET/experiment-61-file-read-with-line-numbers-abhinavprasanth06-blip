@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileReadWithLineNumbers {
+public class FileLineReader {
     public static void main(String[] args) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
